@@ -20,7 +20,7 @@
   --max: 1120px;
   --side: 340px;
 
-  --base: 18px;
+  /* --base: 18px; */
 }
 
 
@@ -30,7 +30,7 @@ body{
   margin: 0;
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   font-size: var(--base);
-  line-height: 1.65;
+  /* line-height: 1.65; */
   color: var(--ink);
   background:
     radial-gradient(900px 520px at 85% -10%, rgba(255, 205, 0, 0.18), transparent 60%),
@@ -133,7 +133,7 @@ a:hover{ text-decoration: underline; }
 
 .avatar{
   width: 120px;
-  height: 120px;
+  height: 135px;
   border-radius: 22px;
   overflow: hidden;
   border: 2px solid rgba(0,0,0,0.25);
@@ -279,8 +279,8 @@ a:hover{ text-decoration: underline; }
 
 .band:nth-child(odd){
   background:
-    linear-gradient(180deg, rgba(0,130,122,0.06), rgba(255,255,255,1)),
-    var(--surface);
+    linear-gradient(180deg, rgba(0, 130, 121, 0), rgba(255,255,255,1)),
+    /* var(--surface); */
 }
 
 .band-head{
@@ -388,7 +388,7 @@ a:hover{ text-decoration: underline; }
 .pub-title{
   font-weight: 900;
   color: var(--ink);
-  line-height: 1.35;
+  /* line-height: 1.35; */
 }
 .pub-tags{
   display: inline-flex;
@@ -506,7 +506,7 @@ a:hover{ text-decoration: underline; }
 
   .avatar{
     width: 140px;
-    height: 140px;
+    height: 150px;
     margin: 0 auto;
   }
 
