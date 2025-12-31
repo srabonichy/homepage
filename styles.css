@@ -20,7 +20,7 @@
   --max: 1120px;
   --side: 340px;
 
-  /* --base: 18px; */
+  --base: 18px;
 }
 
 
@@ -28,7 +28,7 @@
 html{ scroll-behavior: smooth; }
 body{
   margin: 0;
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family: "Lato", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   font-size: var(--base);
   /* line-height: 1.65; */
   color: var(--ink);
